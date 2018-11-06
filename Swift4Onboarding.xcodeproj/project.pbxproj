@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABFCD511FAAFB1DFD8BA2DDE /* Pods_Swift4Onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7A47A9A5FD37FC12B0C66B /* Pods_Swift4Onboarding.framework */; };
 		FFE7202921748D250008227E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7202821748D250008227E /* AppDelegate.swift */; };
 		FFE7202B21748D250008227E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7202A21748D250008227E /* ViewController.swift */; };
 		FFE7202E21748D250008227E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE7202C21748D250008227E /* Main.storyboard */; };
 		FFE7203021748D260008227E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE7202F21748D260008227E /* Assets.xcassets */; };
 		FFE7203321748D260008227E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE7203121748D260008227E /* LaunchScreen.storyboard */; };
+		FFE7203B21749F1C0008227E /* SwiftyOnboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE7203A21749F1C0008227E /* SwiftyOnboard.framework */; };
+		FFE7203D21759F580008227E /* CustomPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE7203C21759F580008227E /* CustomPage.xib */; };
+		FFE7203F21759F7F0008227E /* CustomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7203E21759F7F0008227E /* CustomPage.swift */; };
+		FFE7204121759F960008227E /* CustomOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE7204021759F960008227E /* CustomOverlay.xib */; };
+		FFE7204321759FA90008227E /* CustomOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7204221759FA90008227E /* CustomOverlay.swift */; };
+		FFE720482175A3920008227E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE720442175A3920008227E /* 2.png */; };
+		FFE720492175A3920008227E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE720452175A3920008227E /* 1.png */; };
+		FFE7204A2175A3920008227E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE720462175A3920008227E /* 3.png */; };
+		FFE7204B2175A3920008227E /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE720472175A3920008227E /* 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60DD9FF0731D8B10F15090FB /* Pods-Swift4Onboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift4Onboarding.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift4Onboarding/Pods-Swift4Onboarding.release.xcconfig"; sourceTree = "<group>"; };
+		A3626F99809300F42CCBBC70 /* Pods-Swift4Onboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift4Onboarding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift4Onboarding/Pods-Swift4Onboarding.debug.xcconfig"; sourceTree = "<group>"; };
+		ED7A47A9A5FD37FC12B0C66B /* Pods_Swift4Onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift4Onboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE7202521748D250008227E /* Swift4Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4Onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE7202821748D250008227E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE7202A21748D250008227E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		FFE7202F21748D260008227E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE7203221748D260008227E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE7203421748D260008227E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE7203A21749F1C0008227E /* SwiftyOnboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyOnboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE7203C21759F580008227E /* CustomPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPage.xib; sourceTree = "<group>"; };
+		FFE7203E21759F7F0008227E /* CustomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPage.swift; sourceTree = "<group>"; };
+		FFE7204021759F960008227E /* CustomOverlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomOverlay.xib; sourceTree = "<group>"; };
+		FFE7204221759FA90008227E /* CustomOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlay.swift; sourceTree = "<group>"; };
+		FFE720442175A3920008227E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FFE720452175A3920008227E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FFE720462175A3920008227E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		FFE720472175A3920008227E /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE7203B21749F1C0008227E /* SwiftyOnboard.framework in Frameworks */,
+				ABFCD511FAAFB1DFD8BA2DDE /* Pods_Swift4Onboarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D09C84734CD13EC69BFD074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3626F99809300F42CCBBC70 /* Pods-Swift4Onboarding.debug.xcconfig */,
+				60DD9FF0731D8B10F15090FB /* Pods-Swift4Onboarding.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B52EB4DFAF1305A9450D3683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7203A21749F1C0008227E /* SwiftyOnboard.framework */,
+				ED7A47A9A5FD37FC12B0C66B /* Pods_Swift4Onboarding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFE7201C21748D250008227E = {
 			isa = PBXGroup;
 			children = (
 				FFE7202721748D250008227E /* Swift4Onboarding */,
 				FFE7202621748D250008227E /* Products */,
+				5D09C84734CD13EC69BFD074 /* Pods */,
+				B52EB4DFAF1305A9450D3683 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +98,20 @@
 		FFE7202721748D250008227E /* Swift4Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				FFE720472175A3920008227E /* 0.png */,
+				FFE720452175A3920008227E /* 1.png */,
+				FFE720442175A3920008227E /* 2.png */,
+				FFE720462175A3920008227E /* 3.png */,
 				FFE7202821748D250008227E /* AppDelegate.swift */,
 				FFE7202A21748D250008227E /* ViewController.swift */,
 				FFE7202C21748D250008227E /* Main.storyboard */,
 				FFE7202F21748D260008227E /* Assets.xcassets */,
 				FFE7203121748D260008227E /* LaunchScreen.storyboard */,
 				FFE7203421748D260008227E /* Info.plist */,
+				FFE7203C21759F580008227E /* CustomPage.xib */,
+				FFE7203E21759F7F0008227E /* CustomPage.swift */,
+				FFE7204021759F960008227E /* CustomOverlay.xib */,
+				FFE7204221759FA90008227E /* CustomOverlay.swift */,
 			);
 			path = Swift4Onboarding;
 			sourceTree = "<group>";
@@ -71,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFE7203721748D260008227E /* Build configuration list for PBXNativeTarget "Swift4Onboarding" */;
 			buildPhases = (
+				0E393AE9E687B2E95BB8C655 /* [CP] Check Pods Manifest.lock */,
 				FFE7202121748D250008227E /* Sources */,
 				FFE7202221748D250008227E /* Frameworks */,
 				FFE7202321748D250008227E /* Resources */,
+				1DF302FCD69419B50059211E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +176,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE720482175A3920008227E /* 2.png in Resources */,
 				FFE7203321748D260008227E /* LaunchScreen.storyboard in Resources */,
+				FFE7204121759F960008227E /* CustomOverlay.xib in Resources */,
+				FFE7204B2175A3920008227E /* 0.png in Resources */,
+				FFE7204A2175A3920008227E /* 3.png in Resources */,
 				FFE7203021748D260008227E /* Assets.xcassets in Resources */,
 				FFE7202E21748D250008227E /* Main.storyboard in Resources */,
+				FFE7203D21759F580008227E /* CustomPage.xib in Resources */,
+				FFE720492175A3920008227E /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E393AE9E687B2E95BB8C655 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift4Onboarding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF302FCD69419B50059211E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swift4Onboarding/Pods-Swift4Onboarding-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyOnboard/SwiftyOnboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyOnboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift4Onboarding/Pods-Swift4Onboarding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFE7202121748D250008227E /* Sources */ = {
@@ -137,6 +236,8 @@
 			files = (
 				FFE7202B21748D250008227E /* ViewController.swift in Sources */,
 				FFE7202921748D250008227E /* AppDelegate.swift in Sources */,
+				FFE7203F21759F7F0008227E /* CustomPage.swift in Sources */,
+				FFE7204321759FA90008227E /* CustomOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +379,11 @@
 		};
 		FFE7203821748D260008227E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3626F99809300F42CCBBC70 /* Pods-Swift4Onboarding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MW7724T87;
 				INFOPLIST_FILE = Swift4Onboarding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +398,11 @@
 		};
 		FFE7203921748D260008227E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DD9FF0731D8B10F15090FB /* Pods-Swift4Onboarding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MW7724T87;
 				INFOPLIST_FILE = Swift4Onboarding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
